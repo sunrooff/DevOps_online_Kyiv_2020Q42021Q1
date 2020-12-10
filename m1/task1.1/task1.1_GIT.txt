@@ -1,0 +1,17 @@
+19c1666 HEAD@{0}: pull https://github.com/sunrooff/DevOps_online_Kyiv_2020Q42021Q1.git: Fast-forward
+44a0330 HEAD@{1}: commit: remover README.md + added 1 file in m2 task2.1
+505904c HEAD@{2}: merge develop: Fast-forward
+0e89f15 HEAD@{3}: checkout: moving from develop to main
+505904c HEAD@{4}: merge styles: Fast-forward
+7faffaf HEAD@{5}: merge images: Fast-forward
+cc7b3bd HEAD@{6}: checkout: moving from styles to develop
+505904c HEAD@{7}: commit: added styles to the index.html file
+7faffaf HEAD@{8}: checkout: moving from images to styles
+7faffaf HEAD@{9}: commit: added sources of images to index.html v2
+b3726a8 HEAD@{10}: commit: added sources of images to index.html
+010720e HEAD@{11}: commit: added forlder with images
+cc7b3bd HEAD@{12}: checkout: moving from develop to images
+cc7b3bd HEAD@{13}: commit: added index.html empty file
+0e89f15 HEAD@{14}: checkout: moving from main to develop
+0e89f15 HEAD@{15}: commit: init commit with readme.txt file
+7178da7 HEAD@{16}: clone: from https://github.com/sunrooff/DevOps_online_Kyiv_2020Q42021Q1.git
