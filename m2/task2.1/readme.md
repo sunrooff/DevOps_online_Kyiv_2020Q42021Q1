@@ -40,7 +40,7 @@ After that ova file imported.</br></br>
 ![1](./screenshots/1.8.png)</br></br>
 ![1](./screenshots/1.8.1.png)</br></br>
 ![1](./screenshots/1.8.2.png)</br></br>
-After the import :
+After the import :</br>
 ![1](./screenshots/1.8.3.png)</br></br>
 
 
@@ -63,7 +63,7 @@ After the import :
 2.4) I tested different network modes for VM1, VM2.</br>
 
 ![1](./screenshots/2.4.png)</br></br>
-Ping each other VM1 and VM2 within lobal Bridge connection type :</br>
+Ping each other VM1 and VM2 within "Local Bridge" connection type :</br>
 ![1](./screenshots/2.4.1.png)</br></br>
 Also created a simple table with ping connection review :</br>
 ![1](./screenshots/2.4.2.png)</br>
@@ -72,13 +72,37 @@ Also created a simple table with ping connection review :</br>
 #### 3. Work with CLI through VBoxManage.</br>
 3.1 - 3.2) I generally explored CLI with VBoxManage (TBD)</br>
 ![1](./screenshots/2.5.1.png)</br></br>
-Currently running VM :
+Currently running VM :</br>
 ![1](./screenshots/2.5.2.png)</br>
 
 
 ### PART 3. WORK WITH VAGRANT
-TBD
+
+1-2) As per the instructions I've downloaded and installed Vagrant. Also I run PowerShell and checked Vagrant's version.</br>
+![1](./screenshots/3.1.png)</br></br>
+
+3-4) Initialization of the environment and it's launch</br>
+![1](./screenshots/3.4.png)</br></br>
+![1](./screenshots/3.4.1.png)</br>
+
+5) ssh connection via Putty :  </br>
+![1](./screenshots/3.5.1.png)</br></br>
+ssh connection via MobaXterm :</br>
+![1](./screenshots/3.5.png)</br></br>
+
+6) Record of the time and date : </br>
+![1](./screenshots/3.6.png)</br></br>
+
+7) VM is stopped and deleted : </br>
+![1](./screenshots/3.7.png)</br></br>
+
+8) Vagrant box is created : </br>
+![1](./screenshots/3.8.png)</br></br>
+
+9) *(optional)* Create a test environment from a few servers. Servers' parameters
+are chosen independently by the student.
+</br> **TBD**
 
 
-PS.
-This time I used Atom as an edit tool.
+**PS.**
+This time I used Atom (as an edit tool) to create readme.md file.
