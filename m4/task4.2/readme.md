@@ -4,9 +4,9 @@
 
 
 1. Local net scheme 2 buildings with 2 floors (each floor 5 PCs):</br></br>
-  - for the 1st building I assigned for PCs static IPs accordingly and for the 2nd building I used DHCP method to assign IPs :
+  - for the 1st building I assigned for PCs static IPs accordingly and for the 2nd building I used DHCP method to assign IPs :</br></br>
   ![1](./screenshots/1.2.png)</br></br>
-  - router's connections:
+  - router's connections:</br></br>
   ![1](./screenshots/1.1.png)</br></br>
   - ping and PDU are successful:</br>
   ![1](./screenshots/1.png)</br></br>
@@ -21,11 +21,11 @@
 
 
 3. Requested local net is set up:</br>
- - router's port is divided into 6 sub ports for each VLAN accordingly:
+ - router's port is divided into 6 sub ports for each VLAN accordingly:</br></br>
  ![1](./screenshots/3.2.png)</br></br>
 
- - each building has its own VLAN:
+ - each building has its own VLAN:</br></br>
  ![1](./screenshots/3.1.png)</br></br>
 
- - ping and PDU are successful.</br>
+ - ping and PDU are successful.</br></br>
  ![1](./screenshots/3.png)</br></br>

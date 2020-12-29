@@ -8,5 +8,5 @@
    ![1](./screenshots/1.png)</br></br>
 
 
-2. Local net is set with the next scheme (5 PCs, 1 router, 2 servers).</br>
+2. DNS is created on both servers within requested net scheme:</br></br>
    ![1](./screenshots/2.png)</br></br>

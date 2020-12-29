@@ -40,4 +40,4 @@
   - Ping from PC1 -> PC7 - not successful :</br>
   ![1](./screenshots/13.png)</br></br>
 
-**23.** I didn't check but as I know - router can make not inly IP routing (as switches also can make that) but also NAT, VPN and firewalls. By using router it is possible to get access to internet or upper levels routing (switches cannot do that).
+**23.** I didn't check but as I know - router can make not only IP routing (as switches also can make that) but also NAT, VPN and firewalls. By using router it is possible to get access to internet or upper levels routing (switches cannot do that).
