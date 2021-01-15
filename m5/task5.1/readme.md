@@ -10,14 +10,15 @@ via "sudo -i" or 'sudo su'</br>
 parameters of the command.
 ![1](./screenshots/2.png)</br>
 
-what system file does it change?</br>
-**'/etc/shadow'** - password is changed and stored here in a hashed/encrypted view.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what system file does it change?</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**'/etc/shadow'** - password is changed and stored here in a hashed/encrypted view.</br>
 
 3) Determine the users registered in the system, as well as what commands they
 execute.</br> What additional information can be gleaned from the command
 execution?
 
-Using command **'cat /etc/passwd'** I listed all users in the system. Here we can find : </br>
+&nbsp;&nbsp;&nbsp;Using command **'cat /etc/passwd'** I listed all users in the system. Here we can find:
+
 1) username </br>
 2) password </br>
 3) user ID (UID) </br>
@@ -48,7 +49,7 @@ of files .bash* using commands.
 7) Describe in plans that you are working on laboratory work 1. Tip: You should
 read the documentation for the finger command.
 
-I just created requested file via command **'nano .plan'** in home directory.
+- I just created requested file via command **'nano .plan'** in home directory.
 ![1](./screenshots/7.png)</br>
 
 8) List the contents of the home directory using the ls command, define its files
@@ -60,10 +61,10 @@ command.
 
 1) Examine the tree command. Master the technique of applying a template, for
 example, display all files that contain a character c, or files that contain a
-specific sequence of characters.
+specific sequence of characters.</br>
 ![1](./screenshots/1.1.1.png)</br>
 
-List subdirectories of the root directory up to and including the second nesting level.
+- List subdirectories of the root directory up to and including the second nesting level.
 ![1](./screenshots/1.1.png)</br>
 
 2) What command can be used to determine the type of file (for example, text or
@@ -95,7 +96,7 @@ Option **-l** give additional insight information about folder content :</br>
 Option **-a** shows hidden files in the target folder which start on "**.**"</br></br>
 ![](./screenshots/4.1.png)</br></br>
 
-5) Perform the following sequence of operations:
+5) Perform the following sequence of operations:</br>
 - create a subdirectory in the home directory; **done**
 - in this subdirectory create a file containing information about directories
 located in the root directory (using I/O redirection operations); **done**
@@ -163,7 +164,7 @@ file.
 
 10) Using the find command, find all files in the /etc directory containing the
 host character sequence.</br></br>
-No results for /etc/ directory. </br>Only starting from root directory there are some files.
+No results for /etc/ directory. </br>Only starting from root directory there are some files.</br>
 ![](./screenshots/10.png)</br></br>
 
 11) List all objects in /etc that contain the ss character sequence. How can I
@@ -175,14 +176,14 @@ Using grep</br>
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
 You must use stream redirection operations.</br>
 
-ls /etc/ | less</br>
-ls /etc/ | more
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ls /etc/ | less</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ls /etc/ | more
 
 
 13) What are the types of devices and how to determine the type of device? Give
 examples.</br>
 
-- If we talk about hard disk and it's partitions :
+- If we talk about hard disk and it's partitions:</br>
 ![](./screenshots/13.png)</br>
 
 - Video card :</br>
@@ -191,7 +192,7 @@ examples.</br>
 - USB:</br>
 ![](./screenshots/13.3.png)</br>
 
-- Audio device :
+- Audio device:</br>
 ![](./screenshots/13.2.png)</br></br>
 
 14) How to determine the type of file in the system, what types of files are there?
@@ -206,6 +207,6 @@ examples.</br>
 - directories (d)
 
 
-15) * List the first 5 directory files that were recently accessed in the /etc
+15) List the first 5 directory files that were recently accessed in the /etc
 directory.
 ![](./screenshots/15.png)</br></br>
