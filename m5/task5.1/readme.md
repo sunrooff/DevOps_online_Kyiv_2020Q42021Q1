@@ -100,7 +100,7 @@ Option **-a** shows hidden files in the target folder which start on "**.**"</br
 - create a subdirectory in the home directory; **done**
 - in this subdirectory create a file containing information about directories
 located in the root directory (using I/O redirection operations); **done**
-- view the created file;
+- view the created file;</br>
 ![](./screenshots/5.3.png)</br></br>
 
 
@@ -116,7 +116,7 @@ relative addressing copy :
 
 
 6) Perform the following sequence of operations:
-- create a subdirectory test in the home directory;**done**
+- create a subdirectory test in the home directory; **done**
 - copy the .bash_history file to this directory while changing its name to
 labwork2;
 ![](./screenshots/6.1.png)</br></br>
@@ -170,7 +170,13 @@ No results for /etc/ directory. </br>Only starting from root directory there are
 11) List all objects in /etc that contain the ss character sequence. How can I
 duplicate a similar command using a bunch of grep?</br>
 
-Using grep</br>
+- using ls:</br>
+![](./screenshots/11.2.png)</br></br>
+
+- using find:</br>
+![](./screenshots/11.1.png)</br></br>
+
+- Using grep:</br>
 ![](./screenshots/11.png)</br></br>
 
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
@@ -197,14 +203,14 @@ examples.</br>
 
 14) How to determine the type of file in the system, what types of files are there?
 
-  To determine what type of file: by **'ls -l'** or **'file'** command
-- regular files (-)
-- sockets (s)
-- pipes (p)
-- symbolic devices (c)
-- block devices (b)
-- symbolic links (l)
-- directories (d)
++ To determine what type of file: **'ls -l'** or **'file'** command can be used:
+  - regular files (-)
+  - sockets (s)
+  - pipes (p)
+  - symbolic devices (c)
+  - block devices (b)
+  - symbolic links (l)
+  - directories (d)
 
 
 15) List the first 5 directory files that were recently accessed in the /etc
