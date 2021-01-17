@@ -36,10 +36,10 @@ I used option **'-o'** to change my GECOS information</br>
 Get help on the previously discussed commands, define and describe any two
 keys for these commands. Give examples.
 
-Example 1. Command cat with 2 options -n (number the lines) and -T (show TAB as ^)
+- Example 1. Command cat with 2 options -n (number the lines) and -T (show TAB as ^)
 ![1](./screenshots/5.1.png)</br>
 
-Example 2. Command chfn with 2 options -u (to check all options) and -w (to change work phone number)
+- Example 2. Command chfn with 2 options -u (to check all options) and -w (to change work phone number)
 ![1](./screenshots/5.2.png)</br>
 
 6) Explore the more and less commands using the help system. View the contents
@@ -75,10 +75,10 @@ Using command **"file"** with the next option **"-i"**</br>
 3) Master the skills of navigating the file system using relative and absolute paths.
 How can you go back to your home directory from anywhere in the filesystem?</br>
 
-We can make it in 3 ways listed below :</br>
-**"cd"**</br>
-**"cd ~"**</br>
-**"cd /home/username/""**
+- We can make it in 3 ways listed below :</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**"cd"**</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**"cd ~"**</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**"cd /home/username/""**
 
 4) Become familiar with the various options for the ls command. Give examples
 of listing directories using different keys. Explain the information displayed on
@@ -170,10 +170,10 @@ No results for /etc/ directory. </br>Only starting from root directory there are
 11) List all objects in /etc that contain the ss character sequence. How can I
 duplicate a similar command using a bunch of grep?</br>
 
-- using ls:</br>
+- Using ls:</br>
 ![](./screenshots/11.2.png)</br></br>
 
-- using find:</br>
+- Using find:</br>
 ![](./screenshots/11.1.png)</br></br>
 
 - Using grep:</br>
@@ -182,9 +182,8 @@ duplicate a similar command using a bunch of grep?</br>
 12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:
 You must use stream redirection operations.</br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ls /etc/ | less</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ls /etc/ | more
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ls /etc/ | less> /dev/pts/0</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ls /etc/ | more > /dev/pts/0
 
 13) What are the types of devices and how to determine the type of device? Give
 examples.</br>
@@ -203,7 +202,8 @@ examples.</br>
 
 14) How to determine the type of file in the system, what types of files are there?
 
-+ To determine what type of file: **'ls -l'** or **'file'** command can be used:
++ To determine what type of file: **'ls -l'** or **'file'** command can be used.
++ Types of files :
   - regular files (-)
   - sockets (s)
   - pipes (p)
