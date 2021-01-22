@@ -32,8 +32,8 @@ Usually UIDs less than 10 are defined as system accounts.</br>
 
 
 2. What are the uid ranges? What is UID? How to define it?</br></br>
-'UID' is numeric designation (ID) for an individual user (number is not more than 65 535).</br>
-These IDs are reserved for special use. UID can be defined id of each user in /etc/passwd file or by executing command **"id"** of a current or any other user. Also using environment variable **"echo $UID"** UID can be shown.</br></br>
+'UID' is numeric designation (ID) for an individual user (total number is not more than 65 535).</br>
+These IDs are reserved for special use. UID can be found out in /etc/passwd file or by executing command **"id"** of a current or any other user. Also using environment variable **"echo $UID"** UID can be shown.</br></br>
 When you need to define only just number of id of a user (without name) -> use command **"id -u username"**
 ![1](./screenshots/2.png)</br></br>
 Here are the ranges of UIDs:
@@ -42,7 +42,7 @@ Here are the ranges of UIDs:
 - 1000+ -> regular users
 
 3. What is GID? How to define it?</br></br>
-GID - unique identifier of the group within the system to which the user belongs. Same as for UID - GID can be defined via command **"id -g username"** of a current or any other user.
+GID - unique identifier of the group within the system to which the user belongs. GID can be defined via command **"id -g username"** of a current or any other user.
 
 4. How to determine belonging of user to the specific group?</br></br>
 It can be done by using next command lines :</br>
@@ -63,9 +63,7 @@ parameters required to create a user?
  -m  - create user's home directory</br>
 
 
-6. How do I change the name (account name) of an existing user?</br>
-
- **"usermod -l new_username old_username"**
+6. How do I change the name (account name) of an existing user?</br></br>**"usermod -l new_username old_username"**
 
 
 7. What is skell_dir? What is its structure?</br></br>
@@ -81,8 +79,7 @@ This is a default template of files/directories that will be automatically creat
 9. What commands and keys should be used to lock and unlock a user account?</br></br>
  To lock :</br>
  a) passwd -l user_name</br>
- b) usermod -L user_name
-
+ b) usermod -L user_name</br></br>
  To unlock : </br>
  a) passwd -u user_name</br>
  b) usermod -U user_name
@@ -93,18 +90,15 @@ After that no password is asked during su command to that user.
 
 11. Display the extended format of information about the directory, tell about the information columns displayed on the terminal.
 12. What access rights exist and for whom (i. e., describe the main roles)?
-Briefly describe the acronym for access rights.</br>
+Briefly describe the acronym for access rights.</br></br>
 ![1](./screenshots/11.png)</br></br>
-First  column: **"- rwx rwx rwx"**</br>
+First column structure: **"- rwx rwx rwx"**</br></br>
+. first item stands for the file type : regular(**-**)/directory(**d**)/block device(**b**)/symbolic link(**s**)/pipe(**p**)/socket(**s**)/character device(**c**)</br>
+ . next 3 items are related to User/owner (**u**) rights</br>
+ . 2nd group of 3 items are related to Group (**g**) rights</br>
+ . 3rd group of 3 items are related to Others (**o**) rights</br>
 
-
-- first item stands for the file type : regular(**-**)/directory(**d**)/block device(**b**)/symbolic link(**s**)/pipe(**p**)/socket(**s**)/character device(**c**)
-- next 3 items are related to User/owner (**u**) rights
-- 2nd group of 3 items are related to Group (**g**) rights
-- 3rd group of 3 items are related to Others (**o**) rights</br>
-
-
- - where:</br>
+ where:</br>
   **r** stands for "**read**"</br>
   **w** stands for "**write**"</br>
   **x** stands for "**execute**"</br>
@@ -117,10 +111,10 @@ First  column: **"- rwx rwx rwx"**</br>
   **7th column**: file name </br>
 
 13. What is the sequence of defining the relationship between the file and the user?</br></br>
-when any user sets up the process with file then:</br>
-- if UID of the file is the same as the UID of the process - means that user is the owner of the file;</br>
-- if the GID of the file matches the GID of any group the user belongs to - means he is a member of the group to which the file belongs;</br>
-- if neither the UID no the GID of a file matches with the UID of the process and the list of groups that the user running it belongs to, that user is an outsider.
+When any user sets up the process with file then :</br>
+ . if UID of the file is the same as the UID of the process - means that user is the owner of the file;</br>
+ . if the GID of the file matches the GID of any group the user belongs to - means he is a member of the group to which the file belongs;</br>
+ . if neither the UID no the GID of a file matches with the UID of the process and the list of groups that the user running it belongs to, that user is an outsider.
 
 
 14. What commands are used to change the owner of a file (directory), as well
