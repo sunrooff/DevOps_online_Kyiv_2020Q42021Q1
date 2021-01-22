@@ -96,19 +96,17 @@ First column structure: **"- rwx rwx rwx"**</br></br>
 . first item stands for the file type : regular(**-**)/directory(**d**)/block device(**b**)/symbolic link(**s**)/pipe(**p**)/socket(**s**)/character device(**c**)</br>
  . next 3 items are related to User/owner (**u**) rights</br>
  . 2nd group of 3 items are related to Group (**g**) rights</br>
- . 3rd group of 3 items are related to Others (**o**) rights</br>
-
+ . 3rd group of 3 items are related to Others (**o**) rights</br></br>
  where:</br>
-  **r** stands for "**read**"</br>
-  **w** stands for "**write**"</br>
-  **x** stands for "**execute**"</br>
-
-  **2nd column**: number of links to that file within the file system </br>
-  **3rd column**: owner of the file </br>
-  **4th column**: group of users that to which that file is related </br>
-  **5th column**: size of file </br>
-  **6th column**: date and time of file creation </br>
-  **7th column**: file name </br>
+  . **r** stands for "**read**"</br>
+  . **w** stands for "**write**"</br>
+  . **x** stands for "**execute**"</br></br>
+  . **2nd column**: number of links to that file within the file system </br>
+  . **3rd column**: owner of the file </br>
+  . **4th column**: group of users that to which that file is related </br>
+  . **5th column**: size of file </br>
+  . **6th column**: date and time of file creation </br>
+  . **7th column**: file name </br>
 
 13. What is the sequence of defining the relationship between the file and the user?</br></br>
 When any user sets up the process with file then :</br>
