@@ -144,6 +144,6 @@ Example of locally created files with sticky bit: </br>
 
 17. What file attributes should be present in the command script?</br></br>
 For the script - file should have: </br>
- . execute(x) permission for Others</br>
+ . execute(x) permission for owner, group and others</br>
  . file extension .sh </br>
  . inside the script the 1st line should be **#!/bin/bash** in order to boot shell bash
